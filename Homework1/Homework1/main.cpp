@@ -76,6 +76,7 @@ public:
 int main(void) {
     Management manage;
     Student student[1];
+    
     for(int i = 0; i < sizeof(student) / sizeof(Student); i++) {
         cout << i + 1 << "번째 학생 정보와 점수 입력" << endl;
         student[i].name = manage.inputName();
