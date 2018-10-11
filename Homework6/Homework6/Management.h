@@ -9,7 +9,6 @@
 #include <iostream>
 #include <string>
 
-#include "Student.h"
 #include "FileSystem.h"
 
 #define MAX 20
