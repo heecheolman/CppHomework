@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  Homework5
+//  Homework6
 //
 //  Created by HeeCheol Kim on 2018. 10. 12..
 //  Copyright © 2018년 HeeCheol Kim. All rights reserved.
