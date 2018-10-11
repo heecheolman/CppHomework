@@ -5,9 +5,6 @@
 //  Created by HeeCheol Kim on 2018. 10. 12..
 //  Copyright © 2018년 HeeCheol Kim. All rights reserved.
 //
-
-#include <iostream>
-#include <string>
 #include "Student.h"
 #include "Management.h"
 
