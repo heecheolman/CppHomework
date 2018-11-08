@@ -21,6 +21,7 @@ public:
     void setStudentData();
     virtual void writeData(){};
     virtual void initTableFormat(){};
+    virtual void sortId() = 0;
     virtual void printStudentData() {
         for(int i = 0; i < STUDENT_CNT; i++) {
             studentList[i].showInfo();

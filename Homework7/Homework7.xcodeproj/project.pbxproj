@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E311D7F218AD28200964D2C /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E311D7E218AD28200964D2C /* Student.cpp */; };
+		0E311D82218AD29900964D2C /* Universe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E311D81218AD29900964D2C /* Universe.cpp */; };
 		0E3DC664218ABFFB00CEF18A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DC663218ABFFB00CEF18A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E311D7D218AD27600964D2C /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		0E311D7E218AD28200964D2C /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		0E311D80218AD28D00964D2C /* Universe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Universe.h; sourceTree = "<group>"; };
+		0E311D81218AD29900964D2C /* Universe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Universe.cpp; sourceTree = "<group>"; };
+		0E311D83218AD2B100964D2C /* Admission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Admission.h; sourceTree = "<group>"; };
+		0E311D86218AD2C500964D2C /* MinistryEducation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinistryEducation.h; sourceTree = "<group>"; };
 		0E3DC660218ABFFB00CEF18A /* Homework7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Homework7; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3DC663218ABFFB00CEF18A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				0E3DC663218ABFFB00CEF18A /* main.cpp */,
+				0E311D83218AD2B100964D2C /* Admission.h */,
+				0E311D7D218AD27600964D2C /* Student.h */,
+				0E311D86218AD2C500964D2C /* MinistryEducation.h */,
+				0E311D80218AD28D00964D2C /* Universe.h */,
+				0E311D81218AD29900964D2C /* Universe.cpp */,
+				0E311D7E218AD28200964D2C /* Student.cpp */,
 			);
 			path = Homework7;
 			sourceTree = "<group>";
@@ -119,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E3DC664218ABFFB00CEF18A /* main.cpp in Sources */,
+				0E311D82218AD29900964D2C /* Universe.cpp in Sources */,
+				0E311D7F218AD28200964D2C /* Student.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
