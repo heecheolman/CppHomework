@@ -11,8 +11,8 @@
 #include <fstream>
 #include <iomanip>
 #include <string>
+#include <vector>
 #include "Student.h"
-#define STUDENT_CNT 10
 
 class Universe {
 public:
@@ -20,15 +20,22 @@ public:
     virtual ~Universe() {};
     void setStudentData();
     virtual void writeData(){};
-    virtual void initTableFormat(){};
-    virtual void sortId() = 0;
+    virtual void initTableFormat() = 0;
     virtual void printStudentData() {
-        for(int i = 0; i < STUDENT_CNT; i++) {
-            studentList[i].showInfo();
+        for(int i = 0; i < studentList.size(); i++) {
+            studentList[i]->showInfo();
         }
     }
-    virtual void sortData(){};
-    Student * studentList;
+    static bool compareSchool(Student *s1, Student *s2) {
+        return s1->school < s2->school;
+    }
+    static bool compareId(Student *s1, Student *s2) {
+        return s1->id < s2->id;
+    }
+    static bool compareScore(Student *s1, Student *s2) {
+        return s1->score > s2->score;
+    }
+    vector <Student*> studentList;
     ifstream in;
     ofstream out;
 };
