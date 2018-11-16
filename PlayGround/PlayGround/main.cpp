@@ -1,26 +1,22 @@
 #include <stdio.h>
-void insert_sort(int A[])
+#include <direct.h>        //mkdir
+#include <errno.h>        //errno
+
+int main( )
 {
-    int n, i, max, temp;
-    n = sizeof(A) / sizeof(A[0]);
-    while (n > 0)
-    {
-        max = 0;
-        for (i = 1; i <= n; i++)
-        {
-            if (A[i] > A[max])
-            {
-                max = i;
-            }
-            temp = A[n];
-            A[n] = A[i];
-            A[i] = temp;
-            n--;
-        }
-    }
-}
-
-
-int main(void) {
+    char strFolderPath[] = { "D:\\CreateFolder" };
     
+    int nResult = mkdir( strFolderPath );
+    
+    if( nResult == 0 )
+    {
+        printf( "폴더 생성 성공" );
+    }
+    else if( nResult == -1 )
+    {
+        perror( "폴더 생성 실패 - 폴더가 이미 있거나 부정확함\n" );
+        printf( "errorno : %d", errno );
+    }
+    
+    return 0;
 }

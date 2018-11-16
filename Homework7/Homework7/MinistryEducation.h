@@ -12,7 +12,7 @@
 class MinistryEducation : public Universe {
 public:
     MinistryEducation() {
-        
+
     }
     virtual ~MinistryEducation() {}
     virtual void writeData() {

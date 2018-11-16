@@ -1,0 +1,6 @@
+
+.ds_store
+**/*.xcodeproj
+/store-list/
+/consumer/
+
