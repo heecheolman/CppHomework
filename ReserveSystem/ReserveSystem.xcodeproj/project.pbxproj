@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E230A5621AC4FF200F3D69D /* Store.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E230A5521AC4FF200F3D69D /* Store.cpp */; };
 		0EBB48A62199D81500D9F3AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB48A52199D81500D9F3AE /* main.cpp */; };
+		0EBD792C21AC4B0C00AB60EA /* MiddleMan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD792B21AC4B0C00AB60EA /* MiddleMan.cpp */; };
+		0EBD792E21AC4C1600AB60EA /* Receipt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD792D21AC4C1600AB60EA /* Receipt.cpp */; };
+		0EBD793021AC4CF800AB60EA /* OrderSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD792F21AC4CF800AB60EA /* OrderSheet.cpp */; };
+		0EBD793221AC4D4B00AB60EA /* Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD793121AC4D4B00AB60EA /* Time.cpp */; };
+		0EBD793421AC4DD500AB60EA /* ShoppingBasket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD793321AC4DD500AB60EA /* ShoppingBasket.cpp */; };
+		0EBD793621AC4E4800AB60EA /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD793521AC4E4800AB60EA /* Item.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E230A5521AC4FF200F3D69D /* Store.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Store.cpp; sourceTree = "<group>"; };
 		0EBB48A22199D81500D9F3AE /* ReserveSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReserveSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBB48A52199D81500D9F3AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0EBD792921AC47F500AB60EA /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		0EBD792A21AC4A1E00AB60EA /* MessageSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSystem.h; sourceTree = "<group>"; };
+		0EBD792B21AC4B0C00AB60EA /* MiddleMan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MiddleMan.cpp; sourceTree = "<group>"; };
+		0EBD792D21AC4C1600AB60EA /* Receipt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Receipt.cpp; sourceTree = "<group>"; };
+		0EBD792F21AC4CF800AB60EA /* OrderSheet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OrderSheet.cpp; sourceTree = "<group>"; };
+		0EBD793121AC4D4B00AB60EA /* Time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Time.cpp; sourceTree = "<group>"; };
+		0EBD793321AC4DD500AB60EA /* ShoppingBasket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShoppingBasket.cpp; sourceTree = "<group>"; };
+		0EBD793521AC4E4800AB60EA /* Item.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
+		0EBE086921A5478C00C839D9 /* VirtualItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualItem.h; sourceTree = "<group>"; };
+		0EBE086A21A547A400C839D9 /* OrderGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderGroup.h; sourceTree = "<group>"; };
+		0EBE086B21A547CB00C839D9 /* PathDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathDef.h; sourceTree = "<group>"; };
+		0EBE086C21A5480500C839D9 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		0EBE086D21A5482B00C839D9 /* ShoppingBasket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingBasket.h; sourceTree = "<group>"; };
+		0EBE086E21A5484A00C839D9 /* Store.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		0EBE086F21A5486F00C839D9 /* Time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		0EBE087021A548F100C839D9 /* POS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POS.h; sourceTree = "<group>"; };
+		0EBE087121A5491B00C839D9 /* OrderSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderSheet.h; sourceTree = "<group>"; };
+		0EBE087221A5496300C839D9 /* Receipt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Receipt.h; sourceTree = "<group>"; };
+		0EBE087321A549CB00C839D9 /* MiddleMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiddleMan.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,26 @@
 			isa = PBXGroup;
 			children = (
 				0EBB48A52199D81500D9F3AE /* main.cpp */,
+				0EBD792A21AC4A1E00AB60EA /* MessageSystem.h */,
+				0EBD792921AC47F500AB60EA /* main.h */,
+				0EBE087321A549CB00C839D9 /* MiddleMan.h */,
+				0EBD792B21AC4B0C00AB60EA /* MiddleMan.cpp */,
+				0EBE087221A5496300C839D9 /* Receipt.h */,
+				0EBD792D21AC4C1600AB60EA /* Receipt.cpp */,
+				0EBE087121A5491B00C839D9 /* OrderSheet.h */,
+				0EBD792F21AC4CF800AB60EA /* OrderSheet.cpp */,
+				0EBE087021A548F100C839D9 /* POS.h */,
+				0EBE086F21A5486F00C839D9 /* Time.h */,
+				0EBD793121AC4D4B00AB60EA /* Time.cpp */,
+				0EBE086D21A5482B00C839D9 /* ShoppingBasket.h */,
+				0EBD793321AC4DD500AB60EA /* ShoppingBasket.cpp */,
+				0EBE086C21A5480500C839D9 /* Item.h */,
+				0EBD793521AC4E4800AB60EA /* Item.cpp */,
+				0EBE086B21A547CB00C839D9 /* PathDef.h */,
+				0EBE086A21A547A400C839D9 /* OrderGroup.h */,
+				0EBE086921A5478C00C839D9 /* VirtualItem.h */,
+				0EBE086E21A5484A00C839D9 /* Store.h */,
+				0E230A5521AC4FF200F3D69D /* Store.cpp */,
 			);
 			path = ReserveSystem;
 			sourceTree = "<group>";
@@ -118,7 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EBD793021AC4CF800AB60EA /* OrderSheet.cpp in Sources */,
 				0EBB48A62199D81500D9F3AE /* main.cpp in Sources */,
+				0EBD792E21AC4C1600AB60EA /* Receipt.cpp in Sources */,
+				0EBD792C21AC4B0C00AB60EA /* MiddleMan.cpp in Sources */,
+				0EBD793221AC4D4B00AB60EA /* Time.cpp in Sources */,
+				0EBD793421AC4DD500AB60EA /* ShoppingBasket.cpp in Sources */,
+				0EBD793621AC4E4800AB60EA /* Item.cpp in Sources */,
+				0E230A5621AC4FF200F3D69D /* Store.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
